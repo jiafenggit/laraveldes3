@@ -1,9 +1,4 @@
 ﻿# Laravel DES3
-# Predis #
-
-[![Software license][ico-license]](LICENSE)
-
-## 简介 ##
 
 Laravel DES3加密解密，和java,ios互通
 
