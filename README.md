@@ -5,9 +5,7 @@ Laravel DES3加密解密，和java,ios互通
 ### 安装方法 ###
 
 ```php
-
 composer require ninesongs/laraveldes3
-
 ```
 
 ### 配置方法 ###
