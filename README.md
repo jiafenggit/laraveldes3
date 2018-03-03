@@ -1,4 +1,9 @@
-﻿## 简介
+﻿# Laravel DES3
+# Predis #
+
+[![Software license][ico-license]](LICENSE)
+
+## 简介 ##
 
 Laravel DES3加密解密，和java,ios互通
 
@@ -24,7 +29,7 @@ aliases中添加
 'DES3' => laraveldes3\Des3Facade::class,
 ```
 
-.env 配置如下
+.env 配置加密key和iv,如下
 
 ```php
 DES3_KEY=ABCDEFGHIJKLMNOPQRSTUVWX
