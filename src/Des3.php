@@ -23,6 +23,12 @@ class Des3 {
      */
     public function __construct(string $key=null, string $iv=null)
     {
+        if (strlen($key) != 24){
+            throw new \Exception("DES3_KEY长度错误，长度为24");
+        }
+        if (strlen($iv) != 8){
+            throw new \Exception("DES3_IV长度错误，长度为8");
+        }
         $this->key = $key;
         $this->iv = $iv;
     }
