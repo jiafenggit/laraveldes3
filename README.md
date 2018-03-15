@@ -1,6 +1,6 @@
-﻿# Laravel DES3
+﻿# Laravel 3DES
 
-Laravel DES3加密解密，和java,ios互通
+Laravel 3DES加密解密，和java,ios互通
 
 ### 安装方法 ###
 
